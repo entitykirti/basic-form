@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<h1>
+    <title>
+
+        PAYMENT FORM
+    </title>
+</h1>
+
+<body>
+    <form>
+        <h1>
+            PAYMENT FORM
+        </h1>
+        <h2>
+            contact details
+        </h2>
+        <p>Name: *<input type="text" name="name" id="name" required></p>
+        <p>Address: <textarea name="address" id="address" ></textarea></p>
+        <p>Email: *<input type="email" name="Email" id="Email" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+
+
+            <p>
+                Male <input type="radio" name="gender" id="gender" value="male">
+                Female <input type="radio" name="gender" id="gender" value="Female">
+            </p>
+        </fieldset>
+
+
+        <p> pincode:* <input type="text" name="pincode" id="pincode" value="387335" required></p>
+
+        <h2>Payment Information</h2>
+        <p>Card Type
+            <select name="Card_type" id="Card_type" enabled="checked" required>
+                <option value="">--Select a card type</option>
+                <option value="rupay">RUPAY</option>
+                <option value="mastercard">MASTERCARD</option>
+                <option value="American express">AMERICAN EXPRESS</option>
+            </select>
+        </p>
+        <p>Card number: <input type="number" name="card_number" id="card_number" required></p>
+        <p>expiry date: <input type="date" name="date" required></p>
+        <p>CVV: <input type="password" name="password" id="cvv"required></p>
+        <p><input type="submit" name="submit" id="submit" value="pay now"></p>
+
+
+    </form>
+</body>
+
+
+
+</html>
